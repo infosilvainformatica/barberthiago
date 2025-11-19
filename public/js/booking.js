@@ -10,7 +10,7 @@ form.addEventListener("submit", async(e)=>{
     const horario = document.querySelector("#time").value;
 
     try {
-        const resposta = await fetch("https://lastuc.onrender.com/agendamentos", {
+        const resposta = await fetch("https://barberthiago.onrender.com/agendamentos", {
             method: "POST",
             headers: { "Content-Type": "application/json"},
             body: JSON.stringify(
